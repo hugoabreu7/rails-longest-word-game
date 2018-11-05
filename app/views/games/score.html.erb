@@ -1,0 +1,9 @@
+<h1>Your score</h1>
+
+<p>This was your answer: <%= @attempt %></p>
+
+<p>Is an english word? <%= @english ? "Yes it is" : "No it's not" %></p>
+
+<p>Is it a valid word? <%= @is_valid ? "Yes it is" : "No it's not" %></p>
+
+<p class="btn btn-danger"> <%= link_to "Play this game again!", root_path %> </p>
